@@ -22,4 +22,14 @@ entries:
     urls:
     - https://platform9-community.github.io/kubevirt-vm-helm/single-vm-0.1.0.tgz
     version: 0.1.0
+  csi-nfs:
+  - apiVersion: v1
+    appVersion: 4.6.0
+    created: "2024-03-22T18:22:02.647414261-04:00"
+    description: CSI NFS Driver for Kubernetes
+    digest: 37abd9c09db1281cfc4ef2adfa024350d32c59264b0f8f71e0535fed3e5e7582
+    name: csi-driver-nfs
+    urls:
+    - https://platform9-community.github.io/csi-nfs-helm/csi-driver-nfs-v4.6.0.tgz
+    version: 4.6.0
 generated: "2023-06-28T15:21:13.905531353-04:00"
